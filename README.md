@@ -14,3 +14,4 @@ My own version of Uncle Bob's SOLID
   * Run the test using pytest or unittest
   * If it passes, repeat the process.
   * Before I started doing TDD, I would hope that my code would run.  If I left it alone for a long time, of course it would stop working and I wouldn't know why.  Now, I feel like my code is a clean, beautiful work of art.  It takes some practice, but it is fun and worth it.
+4.  The Readme should contain instructions on how to set up and run the repository, as well as a simple, easy-to-understand flowchart of how the program works.
