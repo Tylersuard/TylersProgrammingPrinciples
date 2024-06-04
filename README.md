@@ -1,6 +1,7 @@
 # Tyler's Programming Principles
 My own version of Uncle Bob's SOLID
 
+0. **Don't Be A Dumbass Principle: The goal is not to show off how smart you are but to make others feel smart for using your software.** 
 1. **Single Inheritance Principle: A subclass must never inherit from more than one class.**
   * Keep inheritance chains short, ideally no longer than two levels. This approach boosts code readability and simplifies tracking where methods come from. Consider this: You're troubleshooting a `d_object.cancel()` issue. `d_object` comes from class D, which inherits from C, then B, and finally A. If class D lacks a `cancel()` method, you must backtrack through C to B, where `cancel()` is defined, using a function from A. This convoluted path can be overwhelming. Simplify by having classes inherit directly from the closest relevant class, reducing the need to navigate through multiple layers to understand functionality. While this might introduce some code repetition, it significantly aids in understanding and maintaining the code.
 2. **Descriptive Naming Principle: Write really descriptive variable and function names.**
