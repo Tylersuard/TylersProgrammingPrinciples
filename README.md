@@ -17,3 +17,5 @@ My own version of Uncle Bob's SOLID
   * Before I started doing TDD, I would hope that my code would run.  If I left it alone for a long time, of course it would stop working and I wouldn't know why.  Now, I feel like my code is a clean, beautiful work of art.  It takes some practice, but it is fun and worth it.
 4.  The Readme should contain instructions on how to set up and run the repository, as well as a simple, easy-to-understand flowchart of how the program works.  If it's important to know, it should be written down.
 5.  Import statements should be composed with the user in mind.  ` from package.core.folder.module.class import function ` should be changed to ` from package import function ` for readability.
+6.  Deprecate, don't delete.  Your software should always be backward-compatible with older versions.  That way, your customers' systems won't break every time they update their software.
+7.  Nobody is going to read your whole Readme before trying out your code.  Put the installation instructions up at the top.
